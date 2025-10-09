@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>CodeClub. JavaScript. Lesson 1.</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/homework.js"></script>
+    </head>
+    <body>
+        <nav class="nav">
+            <div class="in">
+                <a href="index.html" class="nav-link">Class work</a>
+                <a href="homework.html" class="nav-link active">Homework</a>
+            </div>
+        </nav>
+
+        <div class="wrapper">
+            <div class="in">
+                <div>
+                    <p>Let's play 'Guess the number'! To start, set the numbers and press the 'Start!' button</p>
+                </div>
+                <form action="GET" class="form-colors">
+                    <div>
+                        <label for="number">Lower bound of number:</label>
+                        <input type="number" name="number" id="minNumber" placeholder="Number">
+                    </div>
+                    <div>
+                        <label for="number">Upper bound of number:</label>
+                        <input type="number" name="number" id="maxNumber" placeholder="Number">
+                    </div>
+                    <div>
+                        <input type="button" class="play" onclick=startPlay() value="Start">
+                    </div>
+                </form>
+                <hr>
+            </div>
+        </div>
+    </body>
+</html>
