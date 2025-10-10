@@ -1,34 +1,27 @@
-# 🎓 JavaScript Course - Final Project
+﻿# 🎓 JavaScript Course - CodeClub Ukraine
 
-## 📌 Overview
+The JavaScript course includes 14 lessons where studens learn the basics of JavaScript language and its practical use. The course focuses only on the language studied and does not include the study of libraries and/or frameworks. Upon completion of the course (at the 14th lesson, a.k.a. "the graduation"), studens present their final projects.
 
-The final project is a work in which you will **consolidate and demonstrate** the material covered during the course. 
+**At the selection stage, students take tests of their knowledge of HTML & CSS**, they expected to have some basic knowledge of HTML markup, CSS selectors, and styles.
 
-It will be presented at the beginning of the **14th lesson**. 
+It is recommended to use Visual Studio Code as IDE, but the instructor can change the IDE/text editor at their discretion. 
 
-Based on the results of the successfully completed final project, a **certificate of completion** of the course will be awarded.
+This document provides a brief description of the topics of each lesson.
 
----
+## List of lessons
+-	Lesson 1: introduce yourself, tell us what you will be developing the course for, talk about JavaScript, get acquainted with Google Chrome DevTools, querySelector, view data via console.log / alert, study variable types, talk about DOM, innerHTML / innerText / value properties, view data in an HTML element, click / mouseenter / mouseleave events, change the background color on hover.
+-	Lesson 2: branching…
+-	Lesson 3: Strings and Arrays…
+-	Lesson 4: arrays, objects, loops…
+-	Lesson 5: arrays of objects, cycles, sorting by age…
+-	Lesson 6: functions, timer, spoilers, getAttribute… 
+-	Lesson 7: Gallery and Slider…
+-	Lesson 8: Ranking table…
+-	Lesson 9: Working with API
+- Lesson 10: Forms
+-	Lesson 13: Writing a functional supplement “To-Do List” (task-list)
+-	Lesson 14: students present their Final Projects
 
-## 📝 Important Note
 
-The next **2 lessons** we will be working on the **"TODO-list"** application. 
 
-There will be **no homework** so that you can spend more time on the final project.
 
----
-
-## 💡 Project Options
-
-For the final work, you can choose one of the following topics:
-
-### Option 1: Website
-A website on a chosen topic with:
-- 🖼️ Gallery or slider
-- 🎥 Video player
-- 📋 Drop-down menu
-
-### Option 2: Your own project
-Your own project (application, game). 
-
-⚠️ **Note:** You need to agree on the idea beforehand.
