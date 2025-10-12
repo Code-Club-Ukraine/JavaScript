@@ -19,9 +19,12 @@ function getAnswer() {
 }
 
 
-$(document).ready(function(){
-    $("#btnSubmit").click(function() {
-        var answer = getAnswer();
-        $("#divText").text(answer);
+document.addEventListener('DOMContentLoaded', function() {
+    const btnSubmit = document.getElementById('btnSubmit');
+    const divText = document.getElementById('divText');
+    
+    btnSubmit.addEventListener('click', function() {
+        const answer = getAnswer();
+        divText.textContent = answer;
     });
 });
