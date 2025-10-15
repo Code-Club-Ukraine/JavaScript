@@ -2,7 +2,7 @@
 
 ## 📋 Instructions
 
-The archive contains a page with a homework template (homework.html).
+The archive contains a page with a homework template (index.html).
 
 ---
 

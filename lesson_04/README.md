@@ -2,7 +2,7 @@
 
 ## 📋 Instructions
 
-The materials include a page with a homework template (homework.html, which includes homework.js). 
+The materials include a page with a homework template (index.html, which includes homework.js). 
 
 The homework.js file contains **2 arrays**: `arrayOfNumbers`, `arrayOfAnimals`.
 

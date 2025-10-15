@@ -2,7 +2,7 @@
 
 ## 📋 Instructions
 
-The materials include another page with a homework template (homework.html).
+The materials include another page with a homework template (index.html).
 
 ---
 

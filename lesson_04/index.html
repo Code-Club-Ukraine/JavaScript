@@ -6,22 +6,28 @@
     <body>
         <nav class="nav">
             <div class="in">
-                <a href="index.html" class="nav-link active">Class work</a>
-                <a href="homework.html" class="nav-link">Homework</a>
+                <div class="nav-link active">Homework</div>
             </div>
         </nav>
 
         <div class="wrapper">
             <div class="in">
                 <form action="GET" class="form-person">
-                    <input type="text" name="name" id="name" placeholder="Name">
-                    <input type="button" class="control-add" value="Add">
+                    <input type="text" name="name" id="name" placeholder="Animal name">
+                    <input type="button" class="control-add-animal" value="Add">
                 </form>
 
-                <div class="list list-of-names"></div>
+                <div class="lists-block">
+                    <div class="lists-block-title">Lists:</div>
+                    <div class="lists-block-columns">
+                        <div class="list list-of-animals-from-k"></div>
+                        <div class="list list-of-animals-end-with-a"></div>
+                        <div class="list list-of-other-animals"></div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <script src="js/scripts.js"></script>
+        <script src="js/homework.js"></script>
     </body>
 </html>
