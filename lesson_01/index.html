@@ -1,42 +1,38 @@
 <html>
-    <head>
-        <title>CodeClub. JavaScript. Lesson 1.</title>
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
-    <body>
-        <nav class="nav">
-            <div class="in">
-                <a href="index.html" class="nav-link">Class work</a>
-                <a href="homework.html" class="nav-link active">Homework</a>
-            </div>
-        </nav>
 
-        <div class="wrapper">
-            <div class="in">
-                <form action="GET" class="form-person">
-                    <div>
-                        <input type="text" name="name" id="name" placeholder="Name">
-                    </div>
-                    <div>
-                        <input type="text" name="surname" id="surname" placeholder="Surname">
-                    </div>
-                    <div>
-                        <input type="text" name="age" id="age" placeholder="Age">
-                    </div>
-                    <div>
-                        <input type="tel" name="tel" id="tel" placeholder="Phone">
-                    </div>
-                    <div>
-                        <input type="button" class="control-display" value="Display">
-                    </div>
-                </form>
+<head>
+    <title>CodeClub. JavaScript. Lesson 1.</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
 
-                <div class="block block-person-data"></div>
-
-                <div class="block block-mouseenter">mouseenter</div>
-                <div class="block block-mouseleave">mouseleave</div>
-                <div class="block block-hover">hover</div>
-            </div>
+<body>
+    <div class="root">
+        <div class="color-picker">
+            <label for="default-color">Default color:</label>
+            <input type="color" name="default-color" id="default-color" value="#f9f9f9">
         </div>
-    </body>
+
+        <div class="color-picker">
+            <label for="hover-color">Color on hover over:</label>
+            <input type="color" name="hover-color" id="hover-color" value="#ffff00">
+        </div>
+
+        <hr>
+
+        <div class="text-field">
+            <label for="text">Text:</label>
+            <input type="text" name="text" id="text" placeholder="Text">
+        </div>
+
+        <button type="button" name="save">Save</button>
+
+        <hr>
+
+        <div id="display-text">
+            <div id="textarea"></div>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+
 </html>
