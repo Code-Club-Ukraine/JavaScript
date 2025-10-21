@@ -5,7 +5,11 @@ Learn how to manage Browser's DOM with JavaScript
 
 ## 📋 Instructions
 
-The materials include another page with a homework template (index.html).
+You've got a request from the Product team to add some interactions to the page.
+They want to add some functionality to 3 elements on the page:
+- `div#display-text`
+- `div#textarea`
+- "Save" `button`
 
 ### 1. Save Button
 
