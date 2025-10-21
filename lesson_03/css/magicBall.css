@@ -19,32 +19,33 @@
     font-weight: bold;
 }
 
-.row h1, h2, input {
+h1, h2,
+input {
     margin-top: 50px;
     text-align: center;
-  }
-  
-.divSearch{
-text-align: center;
+}
+
+.divSearch {
+    text-align: center;
 }
 
 #searchInput {
-width: 500px
+    width: 500px
 }
 
 #divAnswer {
-text-align: center;
-padding-top: 200px;
-margin: 0;
+    text-align: center;
+    padding-top: 200px;
+    margin: 0;
 }
 
 #divText {
-background-color: white;
+    background-color: white;
 }
 
 #divImage {
-background-image: url(http://appinventor.mit.edu/explore/sites/all/files/ai2tutorials/magic8ball/magic8ball.jpg);
-background-repeat: no-repeat;
-background-position: center;
-height: 400px;
+    background-image: url(http://appinventor.mit.edu/explore/sites/all/files/ai2tutorials/magic8ball/magic8ball.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
 }
