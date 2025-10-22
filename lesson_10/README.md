@@ -6,7 +6,7 @@
 
 ## 📋 Instructions
 
-There is a homework page (homework.html) in the archive. It requires:
+There is a homework page (index.html) in the archive. It requires:
 
 ---
 

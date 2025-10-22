@@ -9,7 +9,7 @@ You've got a request from the Product team to add some interactions to the page.
 They want to add some functionality to 3 elements on the page:
 - `div#display-text`
 - `div#textarea`
-- `button` with name `save`
+- "Save" `button`
 
 ### 1. Save Button
 
